@@ -1,0 +1,33 @@
+header {
+    background-color: black;
+    background-size: cover;
+    max-width: 100%;
+    padding: 0;
+  
+    img {
+      width: 150px;
+    }
+  
+    nav {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+  
+        li {
+          display: inline;
+          margin-right: 20px;
+  
+          a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+  
+            &:hover {
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }

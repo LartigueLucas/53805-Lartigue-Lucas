@@ -113,7 +113,7 @@ footer {
 }
 .tarjeta {
     flex: 0 0 calc(33.333% - 10px);
-    max-width: 250px; /* Establecer un ancho máximo fijo */
+    max-width: 250px; 
     width: 250px;
     height: 200px;
     margin-right: 20px;
@@ -139,19 +139,19 @@ footer {
     border-top-right-radius: 10px;
 }
 .tarjeta .contenido {
-    position: absolute; /* Posicionar el contenido de forma absoluta */
-    bottom: 0; /* Colocar el contenido en la parte inferior */
-    left: 0; /* Colocar el contenido en el borde izquierdo */
-    right: 0; /* Colocar el contenido en el borde derecho */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    padding: 10px; /* Añadir relleno alrededor del contenido */
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
     text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
 .tarjeta h3 {
-    font-size: 18px; /* Tamaño del título */
-    color: #ff0000; /* Color del texto blanco */
-    margin: 0; /* Eliminar márgenes */
+    font-size: 18px; 
+    color: #ff0000; 
+    margin: 0; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .tarjeta p {
@@ -161,6 +161,15 @@ footer {
 }
 .card-body p {font-size: 14px;
     color: #000000;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    background-color: #000000;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 #bananaxtanex {
     background-image: url('../assets/img/sin_título_1.jpg');
@@ -195,14 +204,3 @@ footer {
 #runtzxruntz {
     background-image: url('../assets/img/sin_título_11.jpg');
   }
-  
-
-
-body {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.7;
-    background-color: #000000;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}

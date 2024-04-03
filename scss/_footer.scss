@@ -1,0 +1,29 @@
+footer {
+    background-color: black;
+    background-size: cover;
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+  
+    .fa-instagram,
+    .fa-envelope,
+    .fa-whatsapp {
+      font-size: 24px;
+    }
+  
+    .titulo-principal {
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    p {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #818181;
+    }
+  }

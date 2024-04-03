@@ -1,0 +1,28 @@
+main {
+    background-image: url('../assets/img/Background\ Main.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100%;
+    background-position: center;
+    padding: 20px;
+    overflow-y: auto;
+  
+    h1, h2, h3 {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .titulo-principal {
+      font-size: 28px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .enlace-catalogo {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  }
