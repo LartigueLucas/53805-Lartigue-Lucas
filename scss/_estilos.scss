@@ -1,0 +1,12 @@
+body {
+    background-color: map-get($colores, color-principal);
+    color: map-get($colores, color-texto);
+    font-family: map-get($fuentes, principal);
+    font-size: map-get($tamanios, fuente-normal);
+  }
+  
+  h1, h2 {
+    font-family: map-get($fuentes, h1-h2);
+  }
+  
+ 

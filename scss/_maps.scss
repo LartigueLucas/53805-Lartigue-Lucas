@@ -1,0 +1,29 @@
+$colores: (
+  primario: #070707,
+  secundario: #6c757d,
+  exito: #28a745,
+  peligro: #dc3545,
+  advertencia: #ffc107,
+  color-principal: #000000,
+  color-texto: #ffffff,
+  color-botones: green,
+  color-titulo: #ffffff,
+  color-sombra: rgba(0, 0, 0, 0.5),
+  color-sombra-texto: rgba(0, 0, 0, 0.5)
+);
+
+$fuentes: (
+  principal: "Roboto", sans-serif,
+  secundaria: "Arial", sans-serif,
+  h1-h2: "Russo One", sans-serif
+);
+
+
+$tamanios: (
+  fuente-pequena: 14px,
+  fuente-normal: 16px,
+  fuente-grande: 36px,
+  espaciado-pequeno: 5px,
+  espaciado-mediano: 10px,
+  espaciado-grande: 20px
+);

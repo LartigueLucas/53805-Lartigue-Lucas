@@ -1,16 +1,31 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alma Mater - Banco de semillas</title>
+    <meta name="description" content="En Alma Mater, ofrecemos una amplia variedad de semillas de cannabis de alta calidad. ¡Descubre nuestras genéticas únicas y comienza tu viaje de cultivo hoy mismo!">
+    <meta name="keywords" content="Alma Mater, banco de semillas, semillas de cannabis, genéticas de cannabis, cultivo de cannabis, semillas de marihuana">
+    <title>Alma Mater | Banco de semillas</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./scss/estilo.css">
     <script src="https://kit.fontawesome.com/d808e7803f.js" crossorigin="anonymous"></script>
+    <style>
+        .zoomable {
+            display: block;
+            max-width: 100%; 
+            height: auto;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .zoomable:hover {
+            transform: scale(1.1); 
+        }
+    </style>
 </head>
 <body>
-    <div class="container-fluid d-flex flex-column vh-100"> 
-    <div class="container-fluid">
+    <div class="container-fluid d-flex flex-column min-vh-100">
         <header class="header">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
@@ -42,35 +57,36 @@
                 </div>
             </nav>
         </header>
-        
+
         <main>
-            <div class="container-fluid d-flex flex-column min-vh-100">
+            <div class="container">
                 <h2 class="titulo-principal">Naturaleza en cada semilla: una obra de arte en crecimiento</h2>
                 <h2 class="titulo-principal">Nuevo Drop</h2>
-                <div class="container">
-                    <div class="row tarjetas-container">
-                        <div class="col-md-4">
-                            <div class="tarjeta" id="bananaxtanex">Genetica: Banana Zkittlez x Tanex</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="tarjeta" id="supersilverxtanex">Genetica: Super Silver x Tanex</div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="tarjeta" id="sublimatorxtanex">Genetica: Sublimator x Tanex</div>
-                        </div>
-                        
+                <div class="row tarjetas-container">
+                    <div class="col-md-4">
+                        <div class="tarjeta" id="bananaxtanex">Genetica: Banana Zkittlez x Tanex</div>
                     </div>
-                    <a href="./pages/catalogo.html" class="enlace-catalogo">Catálogo</a>
-                
+                    <div class="col-md-4">
+                        <div class="tarjeta" id="supersilverxtanex">Genetica: Super Silver x Tanex</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tarjeta" id="sublimatorxtanex">Genetica: Sublimator x Tanex</div>
+                    </div>
+                </div>
+                <a href="./pages/catalogo.html" class="enlace-catalogo">Catálogo</a>
+
                 <section>
                     <h2>Novedades</h2>
                     <p>En Alma Máter, estamos emocionados de embarcarnos en este viaje junto a nuestros cultivadores. Nuestra misión es ser su compañero de confianza, proporcionando semillas de cannabis excepcionales y apoyando su crecimiento en cada etapa. Nos dedicamos a preservar la magia de la naturaleza y llevarla a su máxima expresión.</p>
                     <h2>Nuevo drop</h2>
                     <p>Cada semilla es el resultado de un proceso que involucra dedicación, atención al detalle y un profundo amor por la tierra. Desde la selección de las mejores plantas madres hasta el cuidado durante el proceso de cultivo, cada paso se lleva a cabo con un cuidado extremo para garantizar la calidad y la vitalidad de las semillas. Este enfoque artesanal se traduce en productos finales excepcionales, donde cada semilla lleva consigo la promesa de un crecimiento saludable y sostenible. Es un proceso que va más allá de la simple producción; es una expresión de respeto hacia la naturaleza y un compromiso con la creación de un futuro más verde y armonioso.</p>
+                    <div class="container">
+                        <img src="./assets/img/cannabisfield.jpg" alt="Imagen" class="zoomable">
+                    </div>
                 </section>
             </div>
         </main>
-        
+
         <footer class="footer">
             <section>
                 <h2>Contactate con nosotros</h2>
@@ -78,7 +94,6 @@
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
                 <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
             </section>
-    </div>
         </footer>
     </div>
     
