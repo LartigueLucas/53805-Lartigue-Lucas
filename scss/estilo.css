@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
 }
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,8 +24,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
-
 header {
   background-color: black;
   background-size: cover;
@@ -34,7 +31,6 @@ header {
   padding: 0;
   width: 100%;
 }
-
 header img {
   width: 150px;
 }
@@ -55,7 +51,6 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #000000;
 }
-
 main {
     padding: 0px;
   }
@@ -74,7 +69,6 @@ main .enlace-catalogo {
   margin-top: 20px;
   font-size: 18px;
 }
-
 footer {
   background-color: black;
   background-size: cover;
@@ -100,7 +94,6 @@ footer p {
   font-size: 16px;
   color: #818181;
 }
-
 .tarjeta {
   flex: 0 0 calc(33.333% - 10px);
   max-width: 250px;
@@ -119,7 +112,6 @@ footer p {
   background-color: rgba(134, 134, 134, 0.8);
   padding: 10px;
 }
-
 .tarjeta:hover {
   transform: translateY(-5px);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -149,51 +141,39 @@ footer p {
   color: #555;
   margin-bottom: 15px;
 }
-
 #bananaxtanex {
   background-image: url("../assets/img/sin_título_1.jpg");
 }
-
 #supersilverxtanex {
   background-image: url("../assets/img/sin_título_2.jpg");
 }
-
 #sublimatorxtanex {
   background-image: url("../assets/img/sin_título_3.jpg");
 }
-
 #sublimatorxtanexfem {
   background-image: url("../assets/img/sin_título_4.jpg");
 }
-
 #bananaxtanexfem {
   background-image: url("../assets/img/sin_título_5.jpg");
 }
-
 #supersilverxtanexfem {
   background-image: url("../assets/img/sin_título_6.jpg");
 }
-
 #blueberryxlemon {
   background-image: url("../assets/img/sin_título_7.jpg");
 }
-
 #sadxruntz {
   background-image: url("../assets/img/sin_título_8.jpg");
 }
-
 #whitewidowxlemon {
   background-image: url("../assets/img/sin_título_9.jpg");
 }
-
 #ak47xlemon {
   background-image: url("../assets/img/sin_título_10.jpg");
 }
-
 #runtzxruntz {
   background-image: url("../assets/img/sin_título_11.jpg");
 }
-
 body {
     background-image: url("../assets/img/backgroundmain.jpg");
     background-size: cover;
@@ -202,9 +182,7 @@ body {
     color: #ffffff; 
     font-family: "Roboto", sans-serif; 
     font-size: 16px;
-  }
-  
-
+  } 
 h1, h2 {
     font-family: "Russo One", sans-serif; 
 }
@@ -212,10 +190,19 @@ h1, h2 {
   background-color: #077003; 
   border-color: #077003; 
 }
-
 .btn-primary:hover {
   background-color: #3c8b49;
   border-color: #3c8b49; 
+}
+.zoomable {
+  display: block;
+  max-width: 100%; 
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.zoomable:hover {
+  transform: scale(1.1); 
 }
 
 /*# sourceMappingURL=estilo.css.map */
